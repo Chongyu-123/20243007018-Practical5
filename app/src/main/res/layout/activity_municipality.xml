@@ -1,31 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/municipality_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/color_default_background"
-    android:fillViewport="true">
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Municipality">
 
-    <LinearLayout
+    <TextView
+        android:id="@+id/municipality_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="24dp">
+        android:gravity="center"
+        android:padding="12dp"
+        android:textColor="@color/color_text_dark"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        tools:text="Beijing" />
 
-        <TextView
-            android:id="@+id/municipality_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/color_text_dark"
-            android:textSize="28sp"
-            android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/municipality_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="12dp"
+        android:layout_weight="2"
+        android:scaleType="fitCenter"
+        tools:src="@drawable/beijing" />
+
+    <!-- Only the information scrolls; the button stays outside this area. -->
+    <ScrollView
+        android:id="@+id/municipality_information_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="3"
+        android:fillViewport="true">
 
         <TextView
             android:id="@+id/municipality_information"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
+            android:padding="8dp"
             android:textColor="@color/color_text_dark"
-            android:textSize="18sp" />
-    </LinearLayout>
-</ScrollView>
+            android:textSize="18sp"
+            tools:text="Municipality information appears here." />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/visit_site_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:minHeight="48dp"
+        android:text="@string/visit_site"
+        android:textAllCaps="false" />
+
+</LinearLayout>
