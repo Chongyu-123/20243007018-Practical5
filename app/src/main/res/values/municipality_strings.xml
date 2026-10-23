@@ -2,4 +2,9 @@
 <resources>
     <string name="visit_site">Visit site</string>
     <string name="municipality_image_description">Photo of %1$s</string>
+    <string name="website_beijing" translatable="false">https://english.beijing.gov.cn/</string>
+    <string name="website_shanghai" translatable="false">https://english.shanghai.gov.cn/</string>
+    <string name="website_chongqing" translatable="false">https://english.cq.gov.cn/</string>
+    <string name="website_tianjin" translatable="false">https://en.tj.gov.cn/</string>
+    <string name="error_no_browser">No app is available to open this website.</string>
 </resources>
