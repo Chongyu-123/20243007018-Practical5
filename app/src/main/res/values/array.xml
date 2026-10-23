@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="municipalities_array">
+        <item>Beijing is the capital of China.Located in northern
+            China, it is an important centre for politics, culture, international
+            exchanges, and scientific innovation. Its urban history stretches back
+            more than three thousand years. The city served as a capital during
+            several dynasties, including the Yuan, Ming, and Qing. Mountains surround
+            much of its northern and western territory, while plains extend towards
+            the southeast. Today, Beijing combines its long historical identity
+            with the responsibilities and activities of a modern national capital.
+        </item>
+
+        <item>Shanghai is one of the biggest city in the east China and is important centre
+            for international finance and trade. The Huangpu River is a major
+            feature of its urban landscape, connecting different parts of the
+            city and shaping its waterfront. Along the Bund, historic buildings
+            reflect the development of financial institutions and trading companies.
+            Across the river, Pudong represents a more recent period of urban
+            and economic growth. Shanghai also preserves traditional neighbourhoods,
+            gardens, and cultural attractions. The combination of historic streets,
+            busy commercial districts, and modern buildings gives the city a
+            distinctive character.
+        </item>
+
+        <item>
+            Chongqing is a municipality in southwestern China, situated along
+            the upper reaches of the Yangtze River. Its central urban area
+            developed around the meeting point of the Yangtze and Jialing rivers.
+            The surrounding mountains and river valleys strongly influence the
+            layout of the city, giving it a distinctive landscape. Beyond the
+            central districts, the municipality includes other urban centres and
+            extensive mountainous areas. The Yangtze connects many of these places
+            and passes through the famous Three Gorges region. Chongqing also
+            serves as an important regional centre for transport, commerce,
+            finance, and administration.
+        </item>
+
+        <item>
+            Tianjin is a municipality in northern China near Beijing and the
+            Bohai Sea. The Haihe River runs through the city and has played
+            an important role in its development. Historically, waterways helped
+            Tianjin become a centre for transporting grain and other goods.
+            A military garrison established in 1404 marked an important stage
+            in the history of the city. Tianjin later developed into a major
+            commercial and industrial centre. Today, its seaport connects northern
+            China with international shipping networks. Its riverfront and historic
+            districts also reflect a long history of trade and cultural exchange.
+        </item>
+
+    </string-array>
+
+</resources>
